@@ -19,11 +19,21 @@
 
     const html = htm.bind(h);
 
+    const Contacts = () => {
+        return html`
+            <div class="contacts">
+                <div class="container contacts__container">
+                    <i>Телефон:</i>8-928-850-94-04 <i>Email:</i> ironsapple@gmail.com
+                </div>
+            </div>
+        `
+    }
+
     const Head = () => {
         return html`
             <div class="header">
                 <div class="container flex">
-                    <img src="logo.png" alt="logo" width="102" height="36" />
+                    <img src="logo.png" alt="" />
                     <div class="hamburger"></div>
                     <div class="menu">
                         <div class="menu-item">
@@ -490,6 +500,7 @@
         `;
         return html`
             <div>
+                <${Contacts} />
                 <${Head} />
                 <${Article} text=${h2ForAll} />
                 <${Body} list=${common} />
