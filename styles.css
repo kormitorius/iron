@@ -35,6 +35,46 @@ li {
     }
 }
 
+/* top contacts */
+.contacts {
+    background: #22282e;
+}
+.contacts__container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #999;
+    display: flex;
+    align-items: center;
+}
+.contacts i:first-child {
+    color: white;
+    background: url("phone-1.svg");
+    background-size: contain;
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    text-indent: 100%;
+    display: flex;
+    margin-right: 3px;
+    margin-top: -2px;
+}
+.contacts i:last-child {
+    color: white;
+    background: url("mail-5.svg");
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    text-indent: 100%;
+    display: flex;
+    margin-right: 4px;
+    margin-left: 16px;
+    margin-top: -2px;
+}
+.contacts svg {
+    fill: white;
+}
+
 /* header */
 .header {
     height: 80px;
