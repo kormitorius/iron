@@ -81,13 +81,23 @@ li {
 .banner {
     height: 400px;
     position: relative;
-    background-image: url(Apple-iphone-5-design-drawing.png);
-    background-attachment: fixed;
     display: flex;
 }
 @media (max-width: 768px) {
     .banner {
         height: 300px;
+    }
+}
+.banner .container {
+    background-image: url(Apple-iphone-5-design-drawing.png);
+    /*background-attachment: fixed;*/
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+@media (max-width: 768px) {
+    .banner .container {
+        background-position: 0% 100%;
     }
 }
 .banner h1 {
@@ -102,13 +112,15 @@ li {
 .banner:after {
     content: "";
     display: block;
-    background-color: rgba(0,0,0,.75);
+    background-color: #999999;
     position: absolute;
-    left: 0;
+    left: 50%;
     top: 0;
     z-index: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
+    margin-left: -50vw;
+    opacity: 0.5;
 }
 
 /* price */
