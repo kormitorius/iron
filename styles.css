@@ -113,7 +113,7 @@ li {
 .banner:after {
     content: "";
     display: block;
-    background-color: #000;
+    background-color: #2d363e;
     position: absolute;
     left: 50%;
     top: 0;
