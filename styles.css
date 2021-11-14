@@ -81,8 +81,7 @@ li {
 .banner {
     height: 400px;
     position: relative;
-    /* background-image: url(https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://1iron.ru/wp-content/uploads/2019/08/remont-iphone.jpg); */
-    background-size: cover;
+    background-image: url(Apple-iphone-5-design-drawing.png);
     background-attachment: fixed;
     display: flex;
 }
