@@ -123,6 +123,10 @@ li {
     height: 400px;
     position: relative;
     display: flex;
+    background-image: url(fon.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 @media (max-width: 768px) {
     .banner {
@@ -130,10 +134,7 @@ li {
     }
 }
 .banner .container {
-    background-image: url(Apple-iphone-5-design-drawing.png);
-    /*background-attachment: fixed;*/
-    background-position: right;
-    background-repeat: no-repeat;
+
     height: 100%;
 }
 @media (max-width: 768px) {
