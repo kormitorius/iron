@@ -499,16 +499,15 @@
                 <p>Помните, любая мелочь может оказаться серьезной проблемой. Рисковать не стоит – обращайтесь в IRON.</p>
         `;
         return html`
-            <div>
-                <${Contacts} />
-                <${Head} />
-                <${Article} text=${h2ForAll} />
-                <${Body} list=${common} />
-                <${Article} text=${h2ForModel} />
-                <${Tags} setActive=${setActive} active=${active} />
-                <${Body} list=${byModel[active]} />
-                <${Article} text=${bottomText} />
-            </div>
+            <${Contacts} />
+            <${Head} />
+            <${Article} text=${h2ForAll} />
+            <${Body} list=${common} />
+            <${Article} text=${h2ForModel} />
+            <${Tags} setActive=${setActive} active=${active} />
+            <${Body} list=${byModel[active]} />
+            <${Article} text=${bottomText} />
+            <${Contacts} />
         `;
     }
 
