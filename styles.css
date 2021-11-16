@@ -190,7 +190,7 @@ li {
     padding: 16px 0;
     border-top: 1px solid #e5e5e5;
 }
-.price__row:hover {
+.price__row:not(:first-child):hover {
     background: #cc5656;
     color: white;
 }
