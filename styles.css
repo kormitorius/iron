@@ -45,10 +45,14 @@ li {
     color: #999;
     display: flex;
     align-items: center;
+    font-size: 14px;
+    line-height: 1;
+    white-space: nowrap;
 }
 .contacts i:first-child {
     color: white;
-    background: url("phone-1.svg");
+    background-image: url("phone-1.svg");
+    background-repeat: no-repeat;
     background-size: contain;
     width: 13px;
     height: 13px;
@@ -56,11 +60,11 @@ li {
     text-indent: 100%;
     display: flex;
     margin-right: 3px;
-    margin-top: -2px;
 }
 .contacts i:last-child {
     color: white;
-    background: url("mail-5.svg");
+    background-image: url("mail-5.svg");
+    background-repeat: no-repeat;
     background-size: contain;
     width: 16px;
     height: 16px;
@@ -69,7 +73,6 @@ li {
     display: flex;
     margin-right: 4px;
     margin-left: 16px;
-    margin-top: -2px;
 }
 .contacts svg {
     fill: white;
@@ -134,7 +137,6 @@ li {
     }
 }
 .banner .container {
-
     height: 100%;
 }
 @media (max-width: 768px) {
