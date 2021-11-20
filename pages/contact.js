@@ -9,6 +9,8 @@ const ContactPage = () => {
         <p>ПН-ПТ: с 9:30 до 20:00</p>
         <p style="color: #d40d0d">СБ: с 9:30 до 19:00</p>
         <p style="color: #d40d0d">ВС: с 9:30 до 17:00</p>
+        <h2>Адрес</h2>
+        <p>Московская улица, дом 5 (вход со двора)</p>
     `;
 
     return setup.html`
