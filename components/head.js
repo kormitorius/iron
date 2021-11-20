@@ -1,6 +1,6 @@
 import setup from "../setup.js";
 
-const Head = () => {
+const Head = ({ title = "" }) => {
     const [open, setOpen] = setup.useState(false);
 
     return setup.html`
@@ -15,9 +15,9 @@ const Head = () => {
                             <div class="sub-menu__item">
                                 MacBook
                             </div>
-                            <div class="sub-menu__item">
+                            <a href="remont-iphone.html" class="sub-menu__item">
                                 iPhone
-                            </div>
+                            </a>
                             <div class="sub-menu__item">
                                 iPad
                             </div>
@@ -35,15 +35,15 @@ const Head = () => {
                     <div class="menu-item">
                         О компании
                     </div class="menu-item">
-                    <div class="menu-item">
+                    <a href="contact.html" class="menu-item">
                         Контакты
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="banner">
             <div class="container flex-center">
-                <h1>Ремонт iPhone</h1>
+                <h1>${title}</h1>
             </div>
         </div>
     `
