@@ -6,7 +6,7 @@ const Head = ({ title = "" }) => {
     return setup.html`
         <div class="header">
             <div class="container flex">
-                <img src="logo.png" alt="" />
+                <a href="/"><img src="logo.png" alt="Iron Service" /></a>
                 <div class="hamburger" onclick=${() => setOpen(!open)}></div>
                 <div class=${"menu" + (open ? " open" : "")}>
                     <div class="menu-item">
@@ -32,9 +32,6 @@ const Head = ({ title = "" }) => {
                             </div>
                         </div>
                     </div>
-                    <div class="menu-item">
-                        О компании
-                    </div class="menu-item">
                     <a href="contact.html" class="menu-item">
                         Контакты
                     </a>
