@@ -14,7 +14,7 @@ const App = ({ type, models, bottomText }) => {
             <h2>${priceForAll}</h2>
         `;
     const h2ForModel = setup.html`
-            <h2>Стоимость ремонта для ${type} ${active}</h2>
+            <h2>Стоимость ремонта для <span>${type} ${active}</span></h2>
         `;
 
     const tagsArray = models.map(m => m.name).filter(n => n !== priceForAll);
