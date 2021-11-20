@@ -5,10 +5,10 @@ const ContactPage = () => {
     const { Article, Head, Contacts } = components;
 
     const text = setup.html`
-        <div>Рабочие дни — без выходных</div>
-        <div>ПН-ПТ: с 9:30 до 20:00</div>
-        <div>СБ: с 9:30 до 19:00</div>
-        <div>ВС: с 9:30 до 17:00</div>
+        <h2>Iron работает без выходных</h2>
+        <p>ПН-ПТ: с 9:30 до 20:00</p>
+        <p style="color: #d40d0d">СБ: с 9:30 до 19:00</p>
+        <p style="color: #d40d0d">ВС: с 9:30 до 17:00</p>
     `;
 
     return setup.html`
