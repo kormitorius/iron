@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Iron - Ремонт iPhone</title>
+    <title>Iron - Ремонт Apple</title>
     <link rel="icon" href="cropped-favicon-1-1-32x32.png" sizes="32x32" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <style>
@@ -13,16 +13,12 @@
 <body>
 
 <script type="module">
-    import models from "./prices/iPhone.js";
-    import { bottomText } from "./text/iPhone.js";
-
     import setup from "./setup.js";
-    import components from "./components/index.js";
+    import HomePage from "./pages/home.js";
 
-    const { App } = components;
     const { render, h } = setup;
 
-    render(h(() => App({ type: "iPhone", models, bottomText })), document.body);
+    render(h(HomePage), document.body);
 </script>
 </body>
 </html>
