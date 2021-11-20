@@ -13,123 +13,16 @@
 <body>
 
 <script type="module">
-    import {h, render} from 'https://unpkg.com/preact@latest?module';
-    import {useState} from 'https://unpkg.com/preact@latest/hooks/dist/hooks.module.js?module';
-    import htm from "https://unpkg.com/htm@latest/dist/htm.module.js?module";
     import models from "./prices/iPhone.js";
     import { bottomText } from "./text/iPhone.js";
 
-    const html = htm.bind(h);
+    import setup from "./setup.js";
+    import components from "./components/index.js";
 
-    const Contacts = () => {
-        return html`
-            <div class="contacts">
-                <div class="container contacts__container">
-                    <i>Телефон:</i>8-928-850-94-04 <i>Email:</i> ironsapple@gmail.com
-                </div>
-            </div>
-        `
-    }
+    const { App } = components;
+    const { render, h } = setup;
 
-    const Head = () => {
-        return html`
-            <div class="header">
-                <div class="container flex">
-                    <img src="logo.png" alt="" />
-                    <div class="hamburger"></div>
-                    <div class="menu">
-                        <div class="menu-item">
-                            Ремонт
-                        </div>
-                        <div class="menu-item">
-                            О компании
-                        </div class="menu-item">
-                        <div class="menu-item">
-                            Контакты
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="container flex-center">
-                    <h1>Ремонт iPhone</h1>
-                </div>
-            </div>
-        `
-    }
-    const Body = ({ list }) => {
-
-        return html`
-            <div class="price container">
-                <div class="price__row">
-                    <div class="price__cell price__caption">Услуга</div>
-                    <div class="price__cell price__caption">Цена</div>
-                </div>
-                ${
-                    Object.keys(list).map(key => {
-                        return html`
-                            <div class="price__row">
-                                <div class="price__cell">${key}</div>
-                                <div class="price__cell">${list[key]}</div>
-                            </div>
-                        `
-                    })
-                }
-            </div>
-        `
-    }
-
-    const Tags = ({ active, setActive, tagsArray }) => {
-        return html`
-            <div class="container tags">
-                ${tagsArray.map(t =>
-                    html`
-                        <div
-                            class="${active === t ? "active" : ""} tag"
-                            onClick=${() => setActive(t)}
-                        >
-                            ${t}
-                        </div>`
-                )}
-            </div>
-        `
-    }
-    const Article = ({ text }) => {
-        return html`
-            <div class="container">
-                ${text}
-            </div>
-        `
-    }
-
-    const App = () => {
-        const [active, setActive] = useState("5");
-
-        const priceForAll = "Стоимость ремонта для всех моделей";
-        const common = models.find(m => m.name === priceForAll).prices;
-
-        const h2ForAll = html`
-            <h2>${priceForAll}</h2>
-        `;
-        const h2ForModel = html`
-            <h2>Стоимость ремонта для iPhone ${active}</h2>
-        `;
-
-        const tagsArray = models.map(m => m.name).filter(n => n !== priceForAll)
-        return html`
-            <${Contacts} />
-            <${Head} />
-            <${Article} text=${h2ForAll} />
-            <${Body} list=${common} />
-            <${Article} text=${h2ForModel} />
-            <${Tags} setActive=${setActive} active=${active} tagsArray=${tagsArray} />
-            <${Body} list=${models.find(m => m.name === active).prices} />
-            <${Article} text=${bottomText} />
-            <${Contacts} />
-        `;
-    }
-
-    render(h(App), document.body);
+    render(h(() => App({ type: "iPhone", models, bottomText })), document.body);
 </script>
 </body>
 </html>
