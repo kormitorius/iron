@@ -10,7 +10,7 @@ export default [
         }
     },
     {
-        name: "MacBook Pro 13 A1278 2009-2012",
+        name: "Pro 13 A1278 2009-2012",
         prices: {
             "Замена аккумулятора": "3 990 руб",
             "Замена жесткого диска HDD/SSD": "990 руб*",
@@ -34,7 +34,7 @@ export default [
 
 
     {
-        name: "MacBook Pro 15 A1286 2009-2012",
+        name: "Pro 15 A1286 2009-2012",
         prices: {
             "Замена аккумулятора": "5 290 руб",
             "Замена жесткого диска HDD/SSD": "990 руб*",
@@ -58,7 +58,7 @@ export default [
     },
 
     {
-        name: "MacBook Pro 17 A1297 2010-2011",
+        name: "Pro 17 A1297 2010-2011",
         prices: {
             "Замена аккумулятора": "5 690 руб",
             "Замена жесткого диска HDD/SSD": "990 руб*",
@@ -82,7 +82,7 @@ export default [
     },
 
     {
-        name: "MacBook Pro 13 A1425 2012-2013",
+        name: "Pro 13 A1425 2012-2013",
         prices:
             {
                 "Замена аккумулятора": "7 990 руб",
@@ -104,7 +104,7 @@ export default [
 
     },
     {
-        name: "MacBook Pro 15 A1398 2012-2013",
+        name: "Pro 15 A1398 2012-2013",
         prices:
             {
                 "Замена аккумулятора": "8 490 руб",
@@ -126,7 +126,7 @@ export default [
 
     },
     {
-        name: "MacBook Pro 13 A1502 2013-2014",
+        name: "Pro 13 A1502 2013-2014",
         prices:
 
             {
@@ -149,7 +149,7 @@ export default [
 
     },
     {
-        name: "MacBook Pro 15 A1398 2013-2014",
+        name: "Pro 15 A1398 2013-2014",
         prices:
 
             {
@@ -172,7 +172,7 @@ export default [
 
     },
     {
-        name: "MacBook Pro 13 A1502 2015",
+        name: "Pro 13 A1502 2015",
         prices: {
             "Замена аккумулятора": "7 990 руб",
             "Замена жесткого диска HDD/SSD": "990 руб*",
@@ -192,7 +192,7 @@ export default [
 
     },
     {
-        name: "MacBook Pro 15 A1398 2015",
+        name: "Pro 15 A1398 2015",
         prices: {
             "Замена аккумулятора": "8 490 руб",
             "Замена жесткого диска HDD/SSD": "990 руб*",
@@ -213,7 +213,7 @@ export default [
 
     },
     {
-        name: "MacBook Pro 13 A1706/A1708",
+        name: "Pro 13 A1706/A1708",
         prices:
             {
                 "Замена аккумулятора": "9 690 руб",
@@ -233,7 +233,7 @@ export default [
 
     },
     {
-        name: "MacBook Pro 15 A1707 2016-2017",
+        name: "Pro 15 A1707 2016-2017",
         prices:
             {
                 "Замена аккумулятора": "9 990 руб",
@@ -254,7 +254,7 @@ export default [
 
     },
     {
-        name: "MacBook Pro 13 A1989 2018-2019",
+        name: "Pro 13 A1989 2018-2019",
         prices:
             {
                 "Замена аккумулятора": "По запросу",
@@ -275,7 +275,7 @@ export default [
 
     },
     {
-        name: "MacBook Pro 15 A1990 2018-2019",
+        name: "Pro 15 A1990 2018-2019",
         prices:
             {
                 "Замена аккумулятора": "По запросу",
@@ -296,7 +296,7 @@ export default [
 
     },
     {
-        name: "MacBook Air 11 A1370 2010-2011",
+        name: "Air 11 A1370 2010-2011",
         prices:
             {
                 "Замена аккумулятора": "4 390 руб",
@@ -318,7 +318,7 @@ export default [
 
     },
     {
-        name: "MacBook Air 13 A1369 2010-2011",
+        name: "Air 13 A1369 2010-2011",
         prices:
             {
                 "Замена аккумулятора": "5 490 руб",
@@ -340,7 +340,7 @@ export default [
 
     },
     {
-        name: "MacBook Air 11 A1465 2012-2015",
+        name: "Air 11 A1465 2012-2015",
         prices:
             {
                 "Замена аккумулятора": "4 990 руб",
@@ -362,7 +362,7 @@ export default [
 
     },
     {
-        name: "MacBook Air 13 A1466 2012-2017",
+        name: "Air 13 A1466 2012-2017",
         prices:
             {
                 "Замена аккумулятора": "4 990 руб",
@@ -384,7 +384,7 @@ export default [
 
     },
     {
-        name: "MacBook Air 13 A1932 2018-2019",
+        name: "Air 13 A1932 2018-2019",
         prices:
             {
                 "Замена аккумулятора": "По запросу",
@@ -405,7 +405,7 @@ export default [
 
     },
     {
-        name: "MacBook 12 A1534 2015-2017",
+        name: "12 A1534 2015-2017",
         prices:
             {
                 "Замена аккумулятора": "8 990 руб",
