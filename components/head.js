@@ -17,15 +17,15 @@ const Head = ({ title = "" }) => {
                     <div class="menu-item">
                         Ремонт
                         <div class="sub-menu">
-                            <div class="sub-menu__item">
+                            <a href="remont-macbook.html" class="sub-menu__item">
                                 MacBook
-                            </div>
+                            </a>
                             <a href="remont-iphone.html" class="sub-menu__item">
                                 iPhone
                             </a>
-                            <div class="sub-menu__item">
+                            <a href="remont-ipad.html" class="sub-menu__item">
                                 iPad
-                            </div>
+                            </a>
                             <div class="sub-menu__item">
                                 iMac
                             </div>
