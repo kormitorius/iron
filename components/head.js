@@ -7,7 +7,12 @@ const Head = ({ title = "" }) => {
         <div class="header">
             <div class="container flex">
                 <a href="/iron/"><img src="logo.png" alt="Iron Service" /></a>
-                <div class="hamburger" onclick=${() => setOpen(!open)}></div>
+                <div id="nav-icon3" class=${"hamburger" + (open ? " open" : "")} onclick=${() => setOpen(!open)}>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
                 <div class=${"menu" + (open ? " open" : "")}>
                     <div class="menu-item">
                         Ремонт
