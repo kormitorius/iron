@@ -21,9 +21,6 @@ p {
 h2 {
     font-weight: 400;
 }
-h2 span {
-    white-space: nowrap;
-}
 li {
     line-height: 1.7;
 }
