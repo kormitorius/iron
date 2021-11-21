@@ -21,9 +21,9 @@ const PricesPage = ({ type, models, bottomText }) => {
     return setup.html`
             <${Contacts} />
             <${Head} title=${"Ремонт " + type} />
-            <${Article} text=${h2ForAll} />
+            <${Article} text=${h2ForAll} className="text-center-mobile container" />
             <${PriceList} list=${common} />
-            <${Article} text=${h2ForModel} />
+            <${Article} text=${h2ForModel} className="text-center-mobile container" />
             <${Tags} setActive=${setActive} active=${active} tagsArray=${tagsArray} />
             <${PriceList} list=${models.find(m => m.name === active).prices} />
             <${Article} text=${bottomText} />
