@@ -175,6 +175,7 @@ li {
     color: white;
     cursor: pointer;
     text-decoration: none;
+    display: block;
 }
 .sub-menu__item:hover {
     color: #d40d0d;
