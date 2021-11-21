@@ -273,6 +273,7 @@ li {
 @media (max-width: 768px) {
     .banner h1 {
         font-size: 28px;
+        text-align: center;
     }
 }
 .banner:after {
@@ -365,4 +366,9 @@ li {
 .flex-center {
     display: flex;
     align-self: center;
+}
+@media (max-width: 768px) {
+    .text-center-mobile {
+        text-align: center;
+    }
 }
