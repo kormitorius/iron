@@ -26,15 +26,15 @@ const Head = ({ title = "" }) => {
                             <a href="remont-ipad.html" class="sub-menu__item">
                                 iPad
                             </a>
-                            <div class="sub-menu__item">
+                            <a href="remont-imac.html" class="sub-menu__item">
                                 iMac
-                            </div>
-                            <div class="sub-menu__item">
-                                iMac mini
-                            </div>
-                            <div class="sub-menu__item">
+                            </a>
+                            <a href="remont-mac-mini.html" class="sub-menu__item">
+                                Mac mini
+                            </a>
+                            <a href="remont-apple-watch.html" class="sub-menu__item">
                                 Apple Watch
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <a href="contact.html" class="menu-item">
