@@ -1,8 +1,8 @@
 import setup from "../setup.js";
 
-const Article = ({ text }) => {
+const Article = ({ text, className = "container" }) => {
     return setup.html`
-        <div class="container">
+        <div class=${className}>
             ${text}
         </div>
     `
