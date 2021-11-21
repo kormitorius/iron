@@ -9,6 +9,11 @@ body {
 * {
     box-sizing: border-box;
 }
+a:active, a:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
 ::marker {
     color: #d40d0d;
     font-size: 1.2em;
@@ -18,13 +23,11 @@ p {
     margin-top: 20px;
     font-weight: 300;
 }
-a:active, a:focus {
-    outline: none;
-    border: none;
-    box-shadow: none;
-}
 h2 {
     font-weight: 400;
+}
+h2 span {
+    white-space: nowrap;
 }
 li {
     line-height: 1.7;
@@ -85,6 +88,11 @@ li {
 .contacts svg {
     fill: white;
 }
+@media (max-width: 768px) {
+    .contacts__container {
+        justify-content: center;
+    }
+}
 
 /* header */
 .header {
@@ -141,6 +149,12 @@ li {
         position: relative;
         padding: 12px;
         text-align: center;
+    }
+    .menu-item:first-child {
+        pointer-events: none;
+    }
+    .menu-item:first-child * {
+        pointer-events: all;
     }
 }
 
