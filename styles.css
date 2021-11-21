@@ -24,11 +24,6 @@ h2 {
 h2 span {
     white-space: nowrap;
 }
-@media (max-width: 768px) {
-    h1, h2 {
-        /*text-align: center;*/
-    }
-}
 li {
     line-height: 1.7;
 }
@@ -273,7 +268,7 @@ li {
 @media (max-width: 768px) {
     .banner h1 {
         font-size: 28px;
-        text-align: center;
+        margin: auto;
     }
 }
 .banner:after {
