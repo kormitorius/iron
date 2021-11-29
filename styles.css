@@ -1,5 +1,9 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url(./OpenSans/OpenSans-Regular.ttf);
+}
 body {
-    font-family: sans-serif;
+    font-family: "OpenSans", sans-serif;
     color: #333;
     overflow-x: hidden;
     min-height: 100vh;
@@ -285,6 +289,7 @@ li {
     .banner h1 {
         font-size: 28px;
         margin: auto;
+        text-align: center;
     }
 }
 .banner:after {
