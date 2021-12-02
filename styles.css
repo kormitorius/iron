@@ -72,6 +72,7 @@ li {
     text-indent: 100%;
     display: flex;
     margin-right: 3px;
+    background-position: 50% 50%;
 }
 .contacts i:last-child {
     color: white;
@@ -85,6 +86,7 @@ li {
     display: flex;
     margin-right: 4px;
     margin-left: 16px;
+    background-position: 50% 50%;
 }
 .contacts svg {
     fill: white;
@@ -108,6 +110,11 @@ li {
 }
 .header img {
     max-height: 36px;
+}
+@media (max-width: 768px) {
+    .header.open ~ div {
+        display: none;
+    }
 }
 
 /* menu */
@@ -137,7 +144,7 @@ li {
     .menu {
         position: absolute;
         width: 100vw;
-        height: 100vh;
+        height: calc(100vh - 80px - 40px);
         left: 0;
         top: 0;
         display: flex;
