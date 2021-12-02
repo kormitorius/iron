@@ -4,9 +4,9 @@ const Head = ({ title = "" }) => {
     const [open, setOpen] = setup.useState(false);
 
     return setup.html`
-        <div class="header">
+        <div class=${"header" + (open ? " open" : "")}>
             <div class="container flex">
-                <a href="/iron/"><img src="logo.png" alt="Iron Service" /></a>
+                <a href="/iron/"><img src="logo.svg" alt="Iron Service" /></a>
                 <div class=${"hamburger" + (open ? " open" : "")} onclick=${() => setOpen(!open)}>
                   <span></span>
                   <span></span>
