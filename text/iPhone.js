@@ -1,9 +1,6 @@
-import {h} from 'https://unpkg.com/preact@latest?module';
-import htm from "https://unpkg.com/htm@latest/dist/htm.module.js?module";
+import setup from "../setup.js"
 
-const html = htm.bind(h);
-
-export const bottomText = html`
+export const bottomText = setup.html`
     <h2>Вы отдыхаете – мы ремонтируем</h2>
     <p>Покупая дорогостоящую технику, потребители стараются, чтобы ремонт Apple, iPhone или иных гаджетов «яблочной» корпорации, как минимум был поверхностным, как максимум – обошел их стороной. К сожалению, ничего нет вечного, и Вам придется столкнуться с сервисными центрами, которые осуществляют официальный ремонт iPhone.</p>
     

@@ -1,9 +1,6 @@
-import {h} from 'https://unpkg.com/preact@latest?module';
-import htm from "https://unpkg.com/htm@latest/dist/htm.module.js?module";
+import setup from "../setup.js"
 
-const html = htm.bind(h);
-
-export const bottomText = html`
+export const bottomText = setup.html`
 
 <h2>Чудо iPad</h2>
 <p>Выход на рынок современных планшетов с расширенными возможностями позволяет пользователям всегда иметь под рукой все необходимое в одном месте. Вы можете всегда быть на связи из-за свободного доступа в интернет, первыми просматривать новинки кинематографа, слушать любимую музыку, делать памятные снимки, хранить большие объемы информации или организовывать рабочий процесс удаленно.</p>

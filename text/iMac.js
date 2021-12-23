@@ -1,9 +1,6 @@
-import {h} from 'https://unpkg.com/preact@latest?module';
-import htm from "https://unpkg.com/htm@latest/dist/htm.module.js?module";
+import setup from "../setup.js"
 
-const html = htm.bind(h);
-
-export const bottomText = html`
+export const bottomText = setup.html`
 <p>
 Компания Apple выпускает одни из самых популярных и востребованных девайсов. Но вместе с этим, они и самые сложные в ремонте. Именно поэтому гарантийный ремонт iMac должен проходить лишь в сертифицированном сервисном центре, где будут разбираться в тонкостях починки и в особенностях данных устройств.
 </p>
