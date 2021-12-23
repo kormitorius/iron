@@ -18,7 +18,7 @@ a:active, a:focus {
     border: none;
     box-shadow: none;
 }
-::marker {
+ul ::marker {
     color: #d40d0d;
     font-size: 1.2em;
 }
@@ -32,6 +32,9 @@ h2 {
 }
 li {
     line-height: 1.7;
+}
+img {
+    max-width: 100%;
 }
 
 /* common */
@@ -270,6 +273,7 @@ li {
     background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 @media (max-width: 768px) {
     .banner {
