@@ -1,6 +1,6 @@
 import setup from "../setup.js"
 
-export const bottomText = setup.html`
+const bottomText = setup.html`
 <p style="text-align: left;">
     <span style="color: #000000;">
         <strong>
@@ -47,3 +47,5 @@ export const bottomText = setup.html`
     </span>
 </p>
 `;
+
+export default bottomText

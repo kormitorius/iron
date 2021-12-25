@@ -1,6 +1,6 @@
 import setup from "../setup.js";
 
-export const blogIPadMini = setup.html`
+const blogIPadMini = setup.html`
     <img src="https://user-images.githubusercontent.com/22710348/144716343-32414513-0ce5-46db-8427-834c067c7d64.png" alt="image" style="max-width: 100%;" />
     <h3 dir="auto">Чем привлекателен планшет Мини?</h3>
     <p dir="auto">Непредвиденные и неприятные ситуации случаются даже с самой прочной и надежной техникой, такой как Apple. Если Вам нужен ремонт Айпад Мини, Вы должны знать основное правило – совершать починку должны лишь квалифицированные мастера, которые знают своё дело.</p>
@@ -16,3 +16,5 @@ export const blogIPadMini = setup.html`
     <p dir="auto">Контактные данные для того, чтобы связаться с нашими представителями, указаны ниже:</p>
     <p dir="auto">Тел.: 8-928-850-94-04; E-mail: <a href="mailto:ironsapple@gmail.com">ironsapple@gmail.com</a>.</p>
 `
+
+export default blogIPadMini
