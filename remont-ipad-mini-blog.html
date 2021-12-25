@@ -15,11 +15,11 @@
 <script type="module">
     import setup from "./setup.js";
     import Blog from "./pages/blog.js";
-    import { blogIPadMini } from "./text/blog-ipad-mini.js";
+    import text from "./text/blog-ipad-mini.js";
 
     const { render, h } = setup;
 
-    render(h(() => Blog({ text: blogIPadMini, title: "Ремонт iPad Mini" })), document.body);
+    render(h(() => Blog({ text, title: "Ремонт iPad Mini" })), document.body);
 </script>
 </body>
 </html>
