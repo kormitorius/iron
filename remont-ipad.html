@@ -14,14 +14,14 @@
 
 <script type="module">
     import models from "./prices/iPad.js";
-    import bottomText from "./text/iPad.js";
+    import text from "./text/iPad.js";
 
     import setup from "./setup.js";
     import PricesPage from "./pages/prices.js";
 
     const { render, h } = setup;
 
-    render(h(() => PricesPage({ type: "iPad", models, bottomText })), document.body);
+    render(h(() => PricesPage({ type: "iPad", models, text })), document.body);
 </script>
 </body>
 </html>

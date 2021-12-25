@@ -14,14 +14,14 @@
 
 <script type="module">
     import models from "./prices/macMini.js";
-    import bottomText from "./text/macMini.js";
+    import text from "./text/macMini.js";
 
     import setup from "./setup.js";
     import PricesPage from "./pages/prices.js";
 
     const { render, h } = setup;
 
-    render(h(() => PricesPage({ type: "Mac mini", models, bottomText })), document.body);
+    render(h(() => PricesPage({ type: "Mac mini", models, text })), document.body);
 </script>
 </body>
 </html>

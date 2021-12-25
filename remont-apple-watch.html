@@ -14,14 +14,14 @@
 
 <script type="module">
     import models from "./prices/appleWatch.js";
-    import bottomText from "./text/appleWatch.js";
+    import text from "./text/appleWatch.js";
 
     import setup from "./setup.js";
     import PricesPage from "./pages/prices.js";
 
     const { render, h } = setup;
 
-    render(h(() => PricesPage({ type: "Apple Watch", models, bottomText })), document.body);
+    render(h(() => PricesPage({ type: "Apple Watch", models, text })), document.body);
 </script>
 </body>
 </html>
