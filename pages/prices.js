@@ -1,7 +1,7 @@
 import setup from "../setup.js";
 import components from "../components/index.js";
 
-const PricesPage = ({ type, models, bottomText }) => {
+const PricesPage = ({ type, models, text }) => {
     const { Article, Head, PriceList, Contacts, Tags } = components;
 
     // auto select first option in tags list
@@ -26,7 +26,7 @@ const PricesPage = ({ type, models, bottomText }) => {
             <${Article} text=${h2ForModel} className="text-center-mobile container" />
             <${Tags} setActive=${setActive} active=${active} tagsArray=${tagsArray} />
             <${PriceList} list=${models.find(m => m.name === active).prices} />
-            <${Article} text=${bottomText} />
+            <${Article} text=${text} />
             <${Contacts} />
         `;
 }
