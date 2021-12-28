@@ -1,4 +1,4 @@
-import setup from "../../setup";
+import setup from "../../setup.js";
 //           <h1 dir="auto">Не работают клавиши на макбуке: Уверены что не заливали?</h1>
 // ne-rabotajut-klavishi-na-makbuke-uvereny-chto-ne-zalivali
 export default setup.html`

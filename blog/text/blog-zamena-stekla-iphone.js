@@ -1,4 +1,4 @@
-import setup from "../../setup";
+import setup from "../../setup.js";
 
 //           <h1 dir="auto">Замена стекла iPhone</h1>
 // <p dir="auto"><a href="https://1iron.ru/zamena-stekla-iphone/" rel="nofollow">https://1iron.ru/zamena-stekla-iphone/</a></p>

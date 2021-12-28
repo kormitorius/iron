@@ -1,4 +1,4 @@
-import setup from "../../setup";
+import setup from "../../setup.js";
 
 //           <h1 dir="auto">Ремонт iMac</h1>
 // <p dir="auto"><a href="https://1iron.ru/remont-imak/" rel="nofollow">https://1iron.ru/remont-imak/</a></p>

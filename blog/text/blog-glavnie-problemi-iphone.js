@@ -1,4 +1,4 @@
-import setup from "../../setup";
+import setup from "../../setup.js";
 
 //           <h1 dir="auto">Главные проблемы iPhone</h1>
 // <p dir="auto"><a href="https://1iron.ru/glavnye-problemy-iphone/" rel="nofollow">https://1iron.ru/glavnye-problemy-iphone/</a></p>

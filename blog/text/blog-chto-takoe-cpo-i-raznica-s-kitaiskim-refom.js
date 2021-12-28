@@ -1,4 +1,4 @@
-import setup from "../../setup";
+import setup from "../../setup.js";
 //           <h1 dir="auto">Что такое CPO? И разница с Китайским рефом</h1>
 // chto-takoe-cpo-i-raznica-s-kitajskim-refom
 export default setup.html`

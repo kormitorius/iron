@@ -1,10 +1,11 @@
-import setup from "../../setup";
+import setup from "../../setup.js";
 
 //           <h1 dir="auto">Что делать, если разбил дисплей iPhone?</h1>
 // <p dir="auto"><a href="https://1iron.ru/chto-delat-esli-razbil-displej-iphone/" rel="nofollow">https://1iron.ru/chto-delat-esli-razbil-displej-iphone/</a></p>
 
 export default setup.html`
 
+<p dir="auto"><img src="https://user-images.githubusercontent.com/22710348/144733388-a29d0334-448e-4928-acff-c39443643005.png" alt="image" style="max-width: 100%;" /></p>
 <h3 dir="auto">Куда нести разбитый телефон Эпл?</h3>
 <p dir="auto">Корпорация Apple выпускает самую популярную, дорогостоящую и многофункциональную технику на мировой рынок.</p>
 <p dir="auto">iPhone является самой популярной, самой востребованной и актуальной моделью телефонов среди пользователей. К большому сожалению, большинство владельцев телефонов думают, что если техника дорогостоящая, она должна никогда не ломаться.</p>

@@ -1,4 +1,4 @@
-import setup from "../../setup";
+import setup from "../../setup.js";
 //           <h1 dir="auto">Замена SSD на MacBook Air и MacBook Pro Retina: куда обращаться</h1>
 // <p dir="auto"><a href="https://1iron.ru/zamena-ssd-na-macbook-air-i-macbook-pro-retina-kuda-obrashhatsja/" rel="nofollow">https://1iron.ru/zamena-ssd-na-macbook-air-i-macbook-pro-retina-kuda-obrashhatsja/</a></p>
 export default setup.html`

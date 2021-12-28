@@ -1,4 +1,4 @@
-import setup from "../../setup";
+import setup from "../../setup.js";
 
 //           <h1 dir="auto">Какой iPhone выбрать в 2020 году?</h1>
 // <p dir="auto"><a href="https://1iron.ru/kakoj-iphone-vybrat-v-2020-godu/" rel="nofollow">https://1iron.ru/kakoj-iphone-vybrat-v-2020-godu/</a></p>

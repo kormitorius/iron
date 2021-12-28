@@ -1,4 +1,4 @@
-import setup from "../../setup";
+import setup from "../../setup.js";
 // <h1 dir="auto">HDD и SSD. В чём разница?</h1>
 // <p dir="auto"><a href="https://1iron.ru/hdd-i-ssd-v-chjom-raznica/" rel="nofollow">https://1iron.ru/hdd-i-ssd-v-chjom-raznica/</a></p>
 export default setup.html`
