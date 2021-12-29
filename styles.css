@@ -18,6 +18,10 @@ a:active, a:focus {
     border: none;
     box-shadow: none;
 }
+a {
+    color: #d40d0d;
+    text-decoration: none;
+}
 ul ::marker {
     color: #d40d0d;
     font-size: 1.2em;
@@ -273,6 +277,7 @@ img {
     background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
 }
 @media (max-width: 768px) {
