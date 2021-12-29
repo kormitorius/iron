@@ -60,6 +60,7 @@ const HomePage = () => {
             Замена дисплея на iPhone: что выбрать и как не попасть на деньги</a></li>
           <li><a href="/blog/v-iphone-popala-voda-sushka-v-rise-i-drugie-mifi.html">В iPhone попала вода: сушка в рисе и другие мифы</a></li>
           <li><a href="/blog/remont-iphone-posle-popadanija-vlagi-kak-proishodit-chto-delat.html">Ремонт iPhone после попадания влаги: как происходит, что делать</a></li>
+          <li><a href="/blog/kakoj-iphone-vybrat-v-2020-godu.html">Какой iPhone выбрать в 2020 году?</a></li>
 
       </ul>
     `;
