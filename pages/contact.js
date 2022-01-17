@@ -10,7 +10,8 @@ const ContactPage = () => {
         <div>ПН-ПТ: с 9:30 до 20:00</div>
         <div style="color: #d40d0d">СБ: с 9:30 до 19:00</div>
         <div style="color: #d40d0d">ВС: с 9:30 до 17:00</div>
-        <p>Телефон: 8-928-850-94-04</br>Email: ironsapple@gmail.com</p>
+        <p>Телефон: 8-928-850-94-04</p>
+        <p>Email: ironsapple@gmail.com</p>
     `;
 
     return setup.html`
