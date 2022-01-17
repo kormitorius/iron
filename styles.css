@@ -396,6 +396,39 @@ img {
     background: #d40d0d;
 }
 
+/* blog - articles list */
+.articles-list {
+    padding: 0;
+    margin: 0;
+}
+
+.articles-list a {
+    color: #333;
+    text-decoration: none;
+}
+.articles-list a:hover {
+    text-decoration: none;
+}
+.articles-list li {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    border-top: 1px solid #e5e5e5;
+}
+.articles-list li:hover {
+    background: #cc5656;
+    color: white;
+}
+.articles-list li:hover a {
+    background: #cc5656;
+    color: white;
+    text-decoration: none;
+}
+.articles-list a:first-child {
+    width: 100%;
+    padding: 16px 12px;
+}
+
 /* utils */
 .flex {
     display: flex;
