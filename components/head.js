@@ -40,6 +40,9 @@ const Head = ({ title = "" }) => {
                     <a href="https://www.avito.ru/i11771820" class="menu-item" target="_blank">
                         Магазин
                     </a>
+                    <a href="blog.html" class="menu-item">
+                        Блог
+                    </a>
                     <a href="contact.html" class="menu-item">
                         Контакты
                     </a>
