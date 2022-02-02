@@ -105,10 +105,11 @@
        */
       function listMajors() {
         gapi.client.sheets.spreadsheets.values.get({
-          spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
-          range: 'Class Data!A2:E',
+          spreadsheetId: '187KEl0L5zivHxfv9MmfKDhriuQJiRzvqjG0qnqT3o5E',
+          range: 'Sheet1!A2:E',
         }).then(function(response) {
           var range = response.result;
+          console.log(response);
           if (range.values.length > 0) {
             appendPre('Name, Major:');
             for (i = 0; i < range.values.length; i++) {
