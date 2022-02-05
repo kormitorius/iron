@@ -19,16 +19,14 @@
     import setup from "./setup.js";
     import PricesPage from "./pages/prices.js";
 
-    console.log(models)
-
     fetch("https://sheetdb.io/api/v1/06t3mh3je0fe3").then(response => response.json().then(data => {
-        const names = Object.keys(data[0]).filter(n => n.includes("iPhone"));
+        const names = Object.keys(data[0]).filter(n => n.includes("iPhone 4"));
         const prices = names.map(name => {
             return {
                 name,
                 prices: data.reduce((acc, d) => {
                     const service = Object.keys(d).find(k => !k.includes("iPhone"));
-                    if (!d[service]) {
+                    if (!d[service] || acc[d[service]]) {
                         return acc;
                     }
                     return {
@@ -38,6 +36,7 @@
                 }, {})
             }
         });
+
         const { render, h } = setup;
 
         render(h(() => PricesPage({ type: "iPhone", models: [models[0], ...prices], text })), document.body);
