@@ -20,7 +20,7 @@
     import PricesPage from "./pages/prices.js";
 
     fetch("https://sheetdb.io/api/v1/06t3mh3je0fe3").then(response => response.json().then(data => {
-        const names = Object.keys(data[0]).filter(n => n.includes("iPhone 4"));
+        const names = Object.keys(data[0]).filter(n => n.includes("iPhone"));
         const prices = names.map(name => {
             return {
                 name,
