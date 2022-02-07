@@ -20,7 +20,7 @@
     import PricesPage from "./pages/prices.js";
 
     fetch("https://sheetdb.io/api/v1/06t3mh3je0fe3").then(response => response.json().then(data => {
-        const names = Object.keys(data[0]).filter(n => n.includes("iPhone"));
+        const names = Object.keys(data[0]).filter(n => n.includes("iPhone")).map(n => n.split("iPhone ").join(""));
         const prices = names.map(name => {
             return {
                 name,
@@ -31,7 +31,7 @@
                     }
                     return {
                         ...acc,
-                        [d[service]]: d[name].split("\n").join(" ").split("  ").join(" ")
+                        [d[service]]: d["iPhone " + name].split("\n").join(" ").split("  ").join(" ")
                     }
                 }, {})
             }
