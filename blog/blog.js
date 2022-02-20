@@ -7,7 +7,9 @@ const ContactPage = ({ text }) => {
     return setup.html`
         <${Contacts} />
         <${Head} title=${document.title.split("Iron|Блог: ").join("")} />
-        <${Article} text=${text} />
+        <div class="blog">
+            <${Article} text=${text} />
+        </div>
         <${Contacts} />
     `;
 }
