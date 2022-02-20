@@ -17,22 +17,22 @@ const Head = ({ title = "" }) => {
                     <div class="menu-item">
                         Ремонт
                         <div class="sub-menu">
-                            <a href="remont-macbook.html" class="sub-menu__item">
+                            <a href="/remont-macbook.html" class="sub-menu__item">
                                 MacBook
                             </a>
-                            <a href="remont-iphone.html" class="sub-menu__item">
+                            <a href="/remont-iphone.html" class="sub-menu__item">
                                 iPhone
                             </a>
-                            <a href="remont-ipad.html" class="sub-menu__item">
+                            <a href="/remont-ipad.html" class="sub-menu__item">
                                 iPad
                             </a>
-                            <a href="remont-imac.html" class="sub-menu__item">
+                            <a href="/remont-imac.html" class="sub-menu__item">
                                 iMac
                             </a>
-                            <a href="remont-mac-mini.html" class="sub-menu__item">
+                            <a href="/remont-mac-mini.html" class="sub-menu__item">
                                 Mac mini
                             </a>
-                            <a href="remont-apple-watch.html" class="sub-menu__item">
+                            <a href="/remont-apple-watch.html" class="sub-menu__item">
                                 Apple Watch
                             </a>
                         </div>
@@ -40,10 +40,10 @@ const Head = ({ title = "" }) => {
                     <a href="https://www.avito.ru/i11771820" class="menu-item" target="_blank">
                         Магазин
                     </a>
-                    <a href="blog.html" class="menu-item">
+                    <a href="/blog.html" class="menu-item">
                         Блог
                     </a>
-                    <a href="contact.html" class="menu-item">
+                    <a href="/contact.html" class="menu-item">
                         Контакты
                     </a>
                 </div>
